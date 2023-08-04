@@ -36,7 +36,7 @@
         
 
 
-<H2> 4) Entrada e Saida de Dados </H2>
+<H2> 4) Entrada e Saída de Dados </H2>
         
         System.out.println("imprime e passa para proxima linha");
         System.out.printf("Imprime como formatação, exs: Meu nome é %s e tenho %.1f%n", "Diego", 20.8);
