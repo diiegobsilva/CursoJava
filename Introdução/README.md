@@ -12,7 +12,7 @@
         
 
 
-<H2> 2) Variaveis </H2>
+<H2> 2) Variáveis </H2>
        
         Ex: < tipo > < nome > = < valor inicial >;
         
