@@ -1,10 +1,5 @@
 # Curso Java Introdução
 
-import java.util.Scanner;
-
-public class Introducao {
-    public static void main (String [] arg){
-
 <H2> 1) Operadores Aritmeticos </H2>
 
         System.out.println("Olá Mundão");
