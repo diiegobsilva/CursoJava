@@ -95,7 +95,9 @@
         if(valorz == valory){
             System.out.println("São iguais");
         }
+        
         // ------ ------ ------ ------ /
+        
         if(valorz != valory){
             System.out.println("valorz é diferente de valory");
         }
