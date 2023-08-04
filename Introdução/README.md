@@ -1,36 +1,48 @@
-# CursoJava
+# Curso Java Introdução
 
 import java.util.Scanner;
 
 public class Introducao {
     public static void main (String [] arg){
-//
-//    //----------------------------------------------------------------------------------------------------------------//
-//        // 1) Operadores Aritmeticos
+
+<H2> 1) Operadores Aritmeticos </H2>
+
         System.out.println("Olá Mundão");
+        
         System.out.println(10 + 10 - 3 * 20 / 5); // = 8
+        
         System.out.println((10 + 10) - 3 * 20 / 5); // = 68
+        
         System.out.println(10 + (10 - 3) * (20 / 5) ); // = 38
-//    //----------------------------------------------------------------------------------------------------------------//
-//
-//        // 2) Variaveis
-        // <tipo> <nome> = <valor inicial>;
+        
+
+
+<H2> 2) Variaveis </H2>
+       
+        Ex: < tipo > < nome > = < valor inicial >;
+        
         String nome;
         nome = "Diego";
         String nomeX = "Danilo";
         System.out.println(nome);
-//    //----------------------------------------------------------------------------------------------------------------//
-//
-//        // 3) Casting
+            
+
+
+<H2> 3) Casting </H2>
+       
         int valorX = 10;
         long valorY = 10;
 
         long total = valorY + valorX;
-        // int total2 = valorY + valorX; Não Funciona
+        
+        // int total2 = valorY + valorX; (Não Funciona)
+        
         int total3 = (int) valorY + valorX; // Casting, ou seja fazendo a conversão explicita de um tipo em outro.
-//    //----------------------------------------------------------------------------------------------------------------//
-//
-//        // 4) Entrada e Saida de Dados
+        
+
+
+<H2> 4) Entrada e Saida de Dados </H2>
+        
         System.out.println("imprime e passa para proxima linha");
         System.out.printf("Imprime como formatação, exs: Meu nome é %s e tenho %.1f%n", "Diego", 20.8);
 
@@ -39,8 +51,9 @@ public class Introducao {
         String totalE = "Total: ";
         System.out.println(totalE + valor1 + valor2); // = 105, Pq CONCATENOU
         System.out.println(totalE + ( valor1 + valor2)); // = 15;
-//
-//        // Entrada via Teclado
+        
+<H3> Entrada via Teclado </H3>
+        
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite uma palavra: ");
         String entradaTexto = teclado.next();
@@ -49,9 +62,11 @@ public class Introducao {
         System.out.println("Digite um Numero: ");
         int entradaNumero = teclado.nextInt();
         System.out.println("Vc digitou: " + entradaNumero);
-//    // ----------------------------------------------------------------------------------------------------------------//
-//
-//        // 5) Classe Math
+        
+
+
+<H2> 5) Classe Math </H2>
+        
         double x = 25.0;
         double y = 5.0;
         double b = 2.0;
@@ -64,18 +79,21 @@ public class Introducao {
         System.out.println("Se x é " + x + " e y é " + y + " então " + Math.min(x,y) + " é o menor valor");
         System.out.println("Um valor aleatório (randômico) " + Math.random());
         System.out.println("O valor arredondado de " + a + " é " + Math.round(a));
-//    // ----------------------------------------------------------------------------------------------------------------//
-//
-//        // 6) Operadores de atribuição cumulativa
+        
+
+
+<H2> 6) Operadores de atribuição cumulativa </H2>
+        
         int numero1 ;
         int numero2  = 100;
         numero1 = numero2; // Atrinuido o valor da variavel numero2 na variavel numero1
 
         numero1 = numero1 + numero2; // (numero1 +=  numero2) É MESMA COISA.
         System.out.println(numero1);
-//    // ----------------------------------------------------------------------------------------------------------------//
-//
-//        // 7) Condicionais - if
+        
+
+<H2> 7) Condicionais - if </H2>
+       
         int  valorz = 1;
         int valory = 1;
 
@@ -92,9 +110,9 @@ public class Introducao {
         else{
             System.out.println("valorz é com certeza igual a valory");
         }
-//    // ----------------------------------------------------------------------------------------------------------------//
-//
-//        // 8) Condicionais - Switch Case
+
+<H2> 8) Condicionais - Switch Case </H2>
+
         int menu = 1;
 
         switch (menu) {
@@ -111,9 +129,10 @@ public class Introducao {
                 System.out.println("Entrou no default");
                 break;
         }
-//    // ----------------------------------------------------------------------------------------------------------------//
-//        // 9) Condicionais - Operador Ternário
 
+
+<H2> 9) Condicionais - Operador Ternário </H2>
+       
         /*
             Sintexe:
             ( <condição> ) ? <se verdadeiro> : <se falso>
@@ -125,10 +144,19 @@ public class Introducao {
         String status = mediaAluno >= mediaMinima ? "Aprovado" : "Reprovado";
         System.out.println(status); // Reprovado
      }
-//    // ----------------------------------------------------------------------------------------------------------------//
-      //Exercicio 002
-        Scanner tecladoExercicio = new Scanner(System.in);
-        System.out.println("Entre com  quatro valores: ");
+     
+
+
+<H3> Exercicio 002 </H3>  
+<H4>
+1 - Crie a classe  Exercicio002. Esta classe deve pedir para o usuário entrar com quatro valores através da console;
+    
+2 - Tire a média dos valores e se o resultado for maior ou igual a 7.0 informe no console "Parabéns! Você aprovado com média:  X", caso contrário informe "Você foi reprovado com média: X", onde X é o     valor da média;
+</H4>
+
+
+    Scanner tecladoExercicio = new Scanner(System.in);
+    System.out.println("Entre com  quatro valores: ");
 
     double entradaTextoExercicio1= tecladoExercicio.nextDouble();
     double entradaTextoExercicio2= tecladoExercicio.nextDouble();
@@ -142,8 +170,10 @@ public class Introducao {
         else{
         System.out.println("Você foi reprovado com média: " + media +  ", onde 7 é o valor da média");
     }
-     // ----------------------------------------------------------------------------------------------------------------//
-        // 10) Estrutura de Repetição
+    
+
+
+<H2> 10) Estrutura de Repetição </H2>
         
     }
 }
