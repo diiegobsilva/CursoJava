@@ -294,12 +294,6 @@
         StringBuffer stringBuffer = new StringBuffer(a);
         System.out.println(stringBuffer.reverse().toString());
 
-
-<H3>Comparação de performance entre String StringBuilder e StringBuffer</H3>
-
-        String minhaString = "";
-        long tempoInicial = System.currentTimeMillis();
-
 <H3>Concatenar com um milhão de caracteres.</H3>
 
         for(int i = 0; i < 1000000; i++) {
