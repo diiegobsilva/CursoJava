@@ -294,29 +294,4 @@
         StringBuffer stringBuffer = new StringBuffer(a);
         System.out.println(stringBuffer.reverse().toString());
 
-<H3>Concatenar com um milhão de caracteres.</H3>
 
-        for(int i = 0; i < 1000000; i++) {
-            minhaString += "a";
-        }
-        long tempoFinal = System.currentTimeMillis();
-        long resultado = tempoFinal - tempoInicial;
-        System.out.println("Tempo de execução manipulando String = " + resultado + " em milisegundos.");
-
-        stringBuilder = new StringBuilder();
-        tempoInicial = System.currentTimeMillis();
-        for(int i = 0; i < 1000000; i ++){
-            stringBuilder.append("a");
-        }
-        tempoFinal = System.currentTimeMillis();
-        resultado = tempoFinal - tempoInicial;
-        System.out.println("Tempo de execução manipulando StringBuilder = " + resultado + " em milisegundos.");
-
-        stringBuffer = new StringBuffer();
-        tempoInicial = System.currentTimeMillis();
-        for(int i = 0; i < 1000000; i ++){
-            stringBuffer.append("a");
-        }
-        tempoFinal = System.currentTimeMillis();
-        resultado = tempoFinal - tempoInicial;
-        System.out.println("Tempo de execução manipulando StringBuffer = " + resultado + " em milisegundos.");
