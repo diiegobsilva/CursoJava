@@ -172,5 +172,74 @@
 
 <H2> 10) Estrutura de Repetição </H2>
         
+a) FOR
+        
+       /*
+            Sintexe:
+                for(inicio; condição; incremento){
+                   <comando1>
+                   <comando2>
+               }
+        */
+        
+        Ex1.
+               int a = 5;
+               for(int i = 0; i >=   a; i++ ){
+                   System.out.println("O Valor i é " + i);
+               }
+      
+        Ex2.
+                for(int i = 0; i < a; i-- ){
+                    System.out.println("O Valor i é " + i);
+                }
+
+
+b) WHILE
+
+        /*
+            Sintexe:
+                while( <condição verdadeira> ){
+                   <comando1>
+                   <comando2>
+                }
+        */
+        
+        
+        Ex1.
+                a = 5;
+                while(a != 0){
+                    System.out.println("a vale " + a);
+                    a--;
+                }
+
+        Ex2.
+        
+                while(a != 100){
+                    a++;
+                    if(a < 40){
+                        continue;
+                    }
+                    System.out.println("a vale " + a);
+                    if(a == 50){
+                        System.out.println("Loop interrompido com a valendo " + a);
+                        break;
+                    }
+                }
+
+c) DO WHILE
+
+        /*
+            Sintexe:
+                do{
+                   <comando1>
+                   <comando2>
+                } while (<condição verdadeira>)
+       */
+       
+        Ex1.
+                a = 1;
+                do {
+                    System.out.println("a vale " + a);
+                } while (a > 1000); // a nunca foi maior que 1000 porém vai executar uma vez.
     }
 }
