@@ -243,5 +243,4 @@ c) DO WHILE
                 } while (a > 1000); // a nunca foi maior que 1000 porém vai executar uma vez.
                 
 <H2>Manipulação de String</H2>
-    }
-}
+
