@@ -172,7 +172,7 @@
 
 <H2> 10) Estrutura de Repetição </H2>
         
-a) FOR
+<H3>a) FOR</H3>
         
        /*
             Sintexe:
@@ -194,7 +194,7 @@ a) FOR
                 }
 
 
-b) WHILE
+<H3>b) WHILE</H3>
 
         /*
             Sintexe:
@@ -226,7 +226,7 @@ b) WHILE
                     }
                 }
 
-c) DO WHILE
+<H3>c) DO WHILE</H3>
 
         /*
             Sintexe:
