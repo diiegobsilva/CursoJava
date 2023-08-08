@@ -272,7 +272,7 @@
         String [] arrayPalavras = a.split(" ");
         System.out.println("Terceiro item do array: " + arrayPalavras[2]);
 
-<H3>invertendo a frase</H3>
+<H3>Invertendo a frase</H3>
         
         String fraseInvertida = "";
         for (int i = a.length(); i > 0; i--) {
